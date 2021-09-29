@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/js" href="js/main.js">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Mini Loja</title>
+	<meta name="viewport" contente="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<script src="https://kit.fontawesome.com/adb51d3003.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="inicio">
+		<nav>
+			<a class="nav-logo" href="#">Cauã Serpa</a>
+			
+			<ul class="nav-link">
+				<li><a class="nav-list" href="#">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</a></li><!--lupa-->
+
+				<li><a class="nav-list" href="#">
+					<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+				</a></li><!--cesta-->
+			</ul>
+		</nav>
+	</header><!--menu-->
+
+	<section class="pag1">
+		<div class="vitrine">
+			<img src="image/delivery/vitrine3.jpg">
+		</div>
+	</section><!--Pag1-->
+
+	<section class="pag2">
+		<div class="container_button">
+			<button type="button" class="btn" onclick="toggleBtn()" id="btn">Cachorro</button>
+			<button type="button" class="btn1" onclick="toggleBtn1()" id="btn1">Gato</button>
+			<button type="button" class="btn2" onclick="toggleBtn2()" id="btn2">Ave</button>
+		</div>
+	</section><!--Pag2-->
+
+	<section class="itens">
+	<div class="container_text"><p>Rações</p></div>
+	<div class="container_box">
+		
+		<div class="container_card">	
+			<div class="container_center">
+				<div class="container_cartao">
+					<div class="iten_favorito"><i class="fa fa-heart" aria-hidden="true"></i></div>
+					<img class="iten_image" src="image/Celular/iten_1.png">
+					<p>Ração Pedigree 15kg</p>
+					<h2>R$ 124.99</h2>
+					<div class="iten_corcao">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+					</div>
+					<a class="text_comprar" href="#">Comprar</a>
+					<a class="text_sacola" href="#">Colocar na Sacola</a>
+				</div>
+			</div>
+
+			<div class="container_center">
+				<div class="container_cartao">
+					<div class="iten_favorito"><span>
+					<i class="fa fa-heart" aria-hidden="true"></i>
+					</span></div>
+					<img class="iten_image" src="image/Celular/iten_2.png">
+					<p>Ração Magnus 15kg</p>
+					<h2>R$ 94.90</h2>
+					<div class="iten_corcao">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<a class="text_comprar" href="#">Comprar</a>
+					<a class="text_sacola" href="#">Colocar na Sacola</a>
+				</div>
+			</div>
+
+			<div class="container_center">
+				<div class="container_cartao">
+					<div class="iten_favorito"><span>
+					<i class="fa fa-heart" aria-hidden="true"></i>
+					</span></div>
+					<img class="iten_image" src="image/Celular/iten_3.png">
+					<p>Ração Champ 20kg</p>
+					<h2>R$ 87.75</h2>
+					<div class="iten_corcao">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+					</div>
+					<a class="text_comprar" href="#">Comprar</a>
+					<a class="text_sacola" href="#">Colocar na Sacola</a>
+				</div>
+			</div>
+		</div>
+	</section><!--racoes-->
+
+	<section class="itens">
+	<div class="container_text"><p>Acessórios</p></div>
+	<div class="container_box">
+		
+		<div class="container_card">	
+			<div class="container_center">
+				<div class="container_cartao">
+					<div class="iten_favorito"><i class="fa fa-heart" aria-hidden="true"></i></div>
+					<img class="iten_image" src="image/Celular/iten_4.png">
+					<p>Casinha N° 3 Vermelha</p>
+					<h2>R$ 105.90</h2>
+					<div class="iten_corcao">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+					</div>
+					<a class="text_comprar" href="#">Comprar</a>
+					<a class="text_sacola" href="#">Colocar na Sacola</a>
+				</div>
+			</div>
+
+			<div class="container_center">
+				<div class="container_cartao">
+					<div class="iten_favorito"><span>
+					<i class="fa fa-heart" aria-hidden="true"></i>
+					</span></div>
+					<img class="iten_image" src="image/Celular/iten_5.png">
+					<p>Coleira para Cachorro</p>
+					<h2>R$ 69.80</h2>
+					<div class="iten_corcao">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<a class="text_comprar" href="#">Comprar</a>
+					<a class="text_sacola" href="#">Colocar na Sacola</a>
+				</div>
+			</div>
+
+			<div class="container_center">
+				<div class="container_cartao">
+					<div class="iten_favorito"><span>
+					<i class="fa fa-heart" aria-hidden="true"></i>
+					</span></div>
+					<img class="iten_image" src="image/Celular/iten_6.png">
+					<p>Cama Extra Grande Cimza</p>
+					<h2>R$ 199.50</h2>
+					<div class="iten_corcao">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+					</div>
+					<a class="text_comprar" href="#">Comprar</a>
+					<a class="text_sacola" href="#">Colocar na Sacola</a>
+				</div>
+			</div>
+		</div>
+	</section><!--racoes-->
+
+	<footer class="footer">
+		<section class="forma_pagamento">
+			<img src="image/Celular/footer_1.png">
+		</section>
+
+		<section class="copyright">
+			<div class="contatos">
+				<a href="http://localhost/Sites%20Para%20Demonstração/Portifolio%20Pessoal%20Responsivo/">
+					<i class="fa fa-code" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.instagram.com/cauaserpa/">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+				<a href="mailto:cauaserpa092@gmail.com">
+					<i class="fa fa-at" aria-hidden="true"></i>
+				</a>
+			</div>
+
+			<div class="direitos">
+				<p>Todos os direitos reservados à Cauã Serpa</p>
+				<p>Copyright©2001-2021</p>
+				<p>Av. Lorem Ipsum, Rua Ipsum N° 140</p>
+				<p>Desenvolvido por Cauã Serpa</p>
+			</div>
+		</section>
+	</footer>
+
+	<script>
+	var btn = document.getElementById("btn");
+
+	var btn1 = document.getElementById("btn1");
+
+	var btn2 = document.getElementById("btn2");
+
+	function toggleBtn(){
+		btn.classList.toggle("active");
+	}
+
+	function toggleBtn1(){
+		btn1.classList.toggle("active");
+	}
+
+	function toggleBtn2(){
+		btn2.classList.toggle("active");
+	}
+	</script>
+
+</body>
+</html>
